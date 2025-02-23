@@ -67,6 +67,7 @@ The app interacts with Flowise AI via an API for real-time analysis. It:
 
 ## 🔍 Example Query
 💬 "Analyze TSLA stock performance"
+
 🔹 📊 Fundamental Analysis – P/E ratio, revenue trends
 
 🔹 📈 Technical Analysis – Moving averages, RSI, MACD
