@@ -19,22 +19,18 @@ Welcome to the **Multi-Agent AI Stock/ETF Analysis Tool**, an advanced AI-powere
 ## 📥 Installation  
 
 ### **1️⃣ Clone the Repository**  
-```sh
+
 git clone https://github.com/YOUR_GITHUB_USERNAME/multi-agent-stock-etf-analysis.git
 cd multi-agent-stock-etf-analysis
 2️⃣ Install Dependencies
 Ensure you have Python installed, then install the required dependencies:
 
-sh
-Kopiér
-Rediger
+
 pip install -r requirements.txt
 3️⃣ Start Flowise with Docker
 Flowise is used as the backend for this intelligent stock analysis tool. To set it up:
 
-sh
-Kopiér
-Rediger
+
 docker run -d -p 3000:3000 --name flowise natbusa/flowise
 This will start Flowise on http://localhost:3000.
 
@@ -44,9 +40,8 @@ Navigate to Import
 Select Test Agents.json from this repository
 🎯 How to Use
 Run the Streamlit app
-sh
-Kopiér
-Rediger
+
+
 streamlit run app4.py
 Enter a stock/ETF symbol in the chat input
 The AI agents will fetch the latest data from the internet
@@ -69,9 +64,6 @@ The app interacts with Flowise AI via an API for real-time analysis. It:
 
 API Endpoint:
 
-bash
-Kopiér
-Rediger
 POST http://localhost:3000/api/v1/prediction/eae195bf-677a-4b55-9e5b-17f63cfdf4a3
 🔍 Example Query
 💬 "Analyze TSLA stock performance"
