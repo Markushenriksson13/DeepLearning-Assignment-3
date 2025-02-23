@@ -50,9 +50,13 @@ View data sources for credibility
 ## 🛠️ File Structure
 
 📂 multi-agent-stock-etf-analysis
+
 │── app4.py               # Streamlit application
+
 │── requirements.txt       # Required dependencies
+
 │── Test Agents.json       # Flowise agent configuration
+
 │── README.md              # Documentation
 ## 📡 API Overview
 The app interacts with Flowise AI via an API for real-time analysis. It:
@@ -64,7 +68,9 @@ The app interacts with Flowise AI via an API for real-time analysis. It:
 ## 🔍 Example Query
 💬 "Analyze TSLA stock performance"
 🔹 📊 Fundamental Analysis – P/E ratio, revenue trends
+
 🔹 📈 Technical Analysis – Moving averages, RSI, MACD
+
 🔹 🧠 Sentiment Analysis – Latest news & market sentiment
 
 ## 📝 Notes
@@ -72,7 +78,7 @@ Ensure Docker is running before starting Flowise.
 If needed, modify API_URL in app4.py to match your Flowise instance.
 The app streams responses in real time for a smooth user experience.
 🏆 Contributors
-Created by [Your Name] – feel free to contribute via pull requests!
+Created by Markus Henriksson – feel free to contribute via pull requests!
 
 ## 📜 License
 MIT License.
