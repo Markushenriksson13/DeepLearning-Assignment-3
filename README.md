@@ -20,8 +20,8 @@ Welcome to the **Multi-Agent AI Stock/ETF Analysis Tool**, an advanced AI-powere
 
 ### **1️⃣ Clone the Repository**  
 
-git clone https://github.com/MarkusHenriksson13/multi-agent-stock-etf-analysis.git
-cd multi-agent-stock-etf-analysis
+git clone https://github.com/MarkusHenriksson13/DeepLearning-Assignment-3.git
+cd DeepLearning-Assignment-3
 ## 2️⃣ Install Dependencies
 Ensure you have Python installed, then install the required dependencies:
 
